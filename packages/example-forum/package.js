@@ -34,6 +34,9 @@ Package.onUse(function (api) {
     'lib/assets/images/stackoverflow.png',
     'lib/assets/images/telescope.png',
     'lib/assets/images/time-understanding.png',
+    'lib/assets/images/head-large.png',
+    'lib/assets/images/volta-logo2.png',
+    'lib/assets/images/sponsio-logo.png',
   ], ['client']);
 
   api.addAssets([
@@ -59,7 +62,8 @@ Package.onUse(function (api) {
   ], ['server']);
 
   api.addFiles([
-    // 'lib/stylesheets/bootstrap.css',
+    //'lib/stylesheets/bootstrap.css',
+    'lib/stylesheets/bootstrap-wizard.css',
     'lib/stylesheets/main.scss'
   ], ['client']);
 
