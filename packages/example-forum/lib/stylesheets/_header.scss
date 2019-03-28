@@ -1,5 +1,5 @@
 .header-wrapper{
-  background: $white;
+  background: #FBFBFB;
   margin-bottom: $vmargin;
 }
 
@@ -8,8 +8,8 @@
     @include flex-center;
     justify-content: space-between;
   }
-  padding-top: $vmargin;
-  padding-bottom: $vmargin;
+  padding-top: $vxmargin;
+  padding-bottom: $vxmargin;
 }
 
 .logo{
