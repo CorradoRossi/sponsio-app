@@ -26,7 +26,7 @@ const UsersProfile = (props) => {
         <h2 className="page-title">{Users.getDisplayName(user)}</h2>
         {user.htmlBio ? <div dangerouslySetInnerHTML={{__html: user.htmlBio}}></div> : null }
         <ul>
-          {user.twitterUsername ? <li><a href={"http://twitter.com/" + user.twitterUsername}>@{user.twitterUsername}</a></li> : null }
+          {user.twitterUsername ? <li><a href={"https://twitter.com/" + user.twitterUsername}>@{user.twitterUsername}</a></li> : null }
           {user.website ? <li><a href={user.website}>{user.website}</a></li> : null }
           <Components.ShowIf check={Users.options.mutations.edit.check} document={user}>
             <li><Link to={Users.getEditUrl(user)}><FormattedMessage id="users.edit_account"/></Link></li>

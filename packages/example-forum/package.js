@@ -37,8 +37,7 @@ Package.onUse(function (api) {
 
     'lib/assets/images/stackoverflow.png',
     'lib/assets/images/telescope.png',
-    'lib/assets/images/time-understanding.png',
-    'lib/assets/images/head-large.png',
+    'lib/static/time-understanding.png',
     'lib/static/me-7.jpg',
   ], ['client']);
 
