@@ -40,7 +40,8 @@ class PostsItem extends PureComponent {
           <Components.Vote collection={Posts} document={post} currentUser={this.props.currentUser} />
         </div>
 
-        {post.thumbnailUrl ? <Components.PostsThumbnail post={post}/> : null}
+        {post.thumbnailUrl ? <Components.PostsThumbnail post={post}/> : <a className="posts-thumbnail" href={Posts.getLink(post)} target={Posts.getLinkTarget(post)}>
+          <span><img src={'/packages/example-forum/lib/static/placeholder.png'} /></span></a> }
 
         <div className="posts-item-content">
 

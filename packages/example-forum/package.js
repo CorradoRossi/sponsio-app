@@ -31,12 +31,15 @@ Package.onUse(function (api) {
   ]);
 
   api.addAssets([
+    'lib/static/sponsio-logo.png',
+    'lib/static/placeholder.png',
+    'lib/static/favicon.png',
+
     'lib/assets/images/stackoverflow.png',
     'lib/assets/images/telescope.png',
     'lib/assets/images/time-understanding.png',
     'lib/assets/images/head-large.png',
-    'lib/assets/images/volta-logo2.png',
-    'lib/assets/images/sponsio-logo.png',
+    'lib/static/me-7.jpg',
   ], ['client']);
 
   api.addAssets([
@@ -64,7 +67,7 @@ Package.onUse(function (api) {
   api.addFiles([
     //'lib/stylesheets/bootstrap.css',
     'lib/stylesheets/bootstrap-wizard.css',
-    'lib/stylesheets/main.scss'
+    'lib/stylesheets/main.scss',
   ], ['client']);
 
   api.mainModule("lib/server/main.js", "server");

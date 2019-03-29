@@ -32,7 +32,7 @@
  * ========================================================= */
 body {
   background-color: #FBFBFB;
-  /*border-top: 12px solid #FBFBFB;*/
+  border-top: 5px solid #9B2FAE;
   color: #3C4858;
 }
 body.inverse {
