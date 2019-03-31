@@ -16,6 +16,13 @@
   @include small{
     text-align: center;
   }
+  .logo-image{
+    margin-right: $hmargin;
+    img{
+      max-width: 150px;
+      max-height: 100px;
+    }
+  }
   @include medium-large{
     display: flex;
     align-items: baseline;

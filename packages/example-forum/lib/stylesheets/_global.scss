@@ -12,7 +12,12 @@ body{
 .main{
   margin-bottom: $vmargin;
   display: flex;
-  justify-content: left;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flash-messages{
+  flex-basis: 100%;
 }
 
 a{

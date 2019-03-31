@@ -64,8 +64,14 @@ code{
 }
 
 .posts-list {
-  width: 60%;
+  @include small-medium{
+    width: 100%;
+  }
+  @include large{
+    width: 60%;
+  }
 }
+
 
 .dropdown-item.active {
   background-color: #9B2FAE;

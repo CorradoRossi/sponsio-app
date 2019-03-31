@@ -12,7 +12,7 @@ import { Utils, getSetting, registerSetting } from 'meteor/vulcan:core';
 registerSetting('forum.outsideLinksPointTo', 'link', 'Whether to point RSS links to the linked URL (“link”) or back to the post page (“page”)');
 registerSetting('forum.requirePostsApproval', false, 'Require posts to be approved manually');
 registerSetting('twitterAccount', null, 'Twitter account associated with the app');
-registerSetting('siteUrl', null, 'Main site URL');
+registerSetting('siteUrl', true, 'Main site URL');
 
 //////////////////
 // Link Helpers //
