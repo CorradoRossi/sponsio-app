@@ -32,6 +32,7 @@ Package.onUse(function (api) {
 
   api.addAssets([
     'lib/static/sponsio-logo.png',
+    'lib/static/sponsio-logo-prpl.png',
     'lib/static/placeholder.png',
     'lib/static/favicon.png',
 

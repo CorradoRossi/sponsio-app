@@ -69,15 +69,43 @@ code{
   }
   @include large{
     width: 60%;
+    min-width: 700px;
   }
 }
 
+@include medium {
+  .posts-list-header-categories {
+    padding: 0 5px 0 5px;
+  }
+  .posts-views {
+    padding: 0 5px 0 5px;
+  }
+}
+@include small{
+  .posts-list-header{
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .posts-list-header-categories{
+    margin: 0;
+    width: 49%;
+  }
+  .posts-views {
+    width: 49%;
+  }
+  .search-form {
+    width: 100%;
+  }
+}
 
 .dropdown-item.active {
   background-color: #9B2FAE;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active {
+.btn-primary:not(:disabled):not(.disabled).active,
+.show >.btn-primary.dropdown-toggle {
   background-color: #9B2FAE;
   border-color: #9B2FAE;
 }
+

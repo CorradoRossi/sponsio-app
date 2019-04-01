@@ -5,9 +5,9 @@ import { Posts } from '../../modules/posts/index.js';
 
 const Header = (props) => {
   
-  const logoUrl = getSetting('logoUrl', '/packages/example-forum/lib/static/sponsio-logo.png');
+  const logoUrl = getSetting('logoUrl', '/packages/example-forum/lib/static/sponsio-logo-prpl.png');
   const siteTitle = getSetting('title');
-  const tagline = getSetting('tagline');
+  
 
   return (
     <div className="header-wrapper">
@@ -16,7 +16,7 @@ const Header = (props) => {
 
         <div className="logo">
           <Components.Logo logoUrl={logoUrl} siteTitle={siteTitle} />
-          {tagline ? <h2 className="tagline">{tagline}</h2> : "" }
+          
         </div>
         
         <div className="nav">

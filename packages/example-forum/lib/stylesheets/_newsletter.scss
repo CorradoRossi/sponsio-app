@@ -1,18 +1,26 @@
 .newsletter{
   background: $white;
   border: 1px solid $light-border;
-  border-radius: 3px;
+  box-shadow: 0 8px 14px 2px rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
   position: relative;
-  @include medium-large{
+  max-height: 250px;
+  padding: $vmargin $hmargin;
+  @include large{
     @include flex-center;
+    min-height: 240px;
+    margin: $vmargin 0 $vmargin $vmargin*4;
     justify-content: center;
   }
-  padding: $vmargin $hmargin;
-  margin-bottom: $vmargin;
+  @include small-medium{
+    justify-content: baseline;
+    width: 100%;
+    min-height: 100px;
+  }
   .newsletter-tagline{
     font-size: 1.35rem;
     @include small{
-      text-align: center;
+      
       margin-bottom: $vmargin;
     }
     @include medium-large{

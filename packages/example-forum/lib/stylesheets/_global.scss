@@ -12,12 +12,15 @@ body{
 .main{
   margin-bottom: $vmargin;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
   justify-content: flex-start;
 }
 
 .flash-messages{
   flex-basis: 100%;
+  opacity: 1;
+  transition: .5s;
 }
 
 a{

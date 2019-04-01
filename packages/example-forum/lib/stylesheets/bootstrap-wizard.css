@@ -32,7 +32,7 @@
  * ========================================================= */
 body {
   background-color: #FBFBFB;
-  border-top: 5px solid #9B2FAE;
+  /*border-top: 5px solid #9B2FAE;*/
   color: #3C4858;
 }
 body.inverse {
@@ -1188,7 +1188,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 
 .btn {
   border: none;
-  border-radius: 25px;
+  border-radius: 5px;
   position: relative;
   padding: 12px 30px;
   margin: 10px 1px;
