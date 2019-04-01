@@ -76,3 +76,8 @@ code{
 .dropdown-item.active {
   background-color: #9B2FAE;
 }
+
+.btn-primary:not(:disabled):not(.disabled).active {
+  background-color: #9B2FAE;
+  border-color: #9B2FAE;
+}

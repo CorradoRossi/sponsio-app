@@ -15,7 +15,7 @@ const UsersAccountMenu = ({ state }) => (
         <FormattedMessage id="users.sign_up_log_in" />
       </div>
     }
-    menuContents={<Components.AccountsLoginForm formState={state ? STATES[state] : STATES.SIGN_UP} />}
+    menuContents={<Components.AccountsLoginForm formState={state ? STATES[state] : STATES.SIGN_IN} />}
   />
 );
 
