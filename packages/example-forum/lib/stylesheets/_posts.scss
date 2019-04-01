@@ -6,9 +6,8 @@
 .posts-list-header{
   @include medium-large{
     @include flex-center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
-  margin-bottom: $vmargin;
 }
 
 .posts-list-header-categories{
@@ -270,6 +269,7 @@
 //////////////////////////////////////////////////////
 
 .posts-page{
+  width: 70%;
   .posts-item{
     @include border-radius;
     border: $border;

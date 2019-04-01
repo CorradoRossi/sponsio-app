@@ -35,6 +35,7 @@ Package.onUse(function (api) {
     'lib/static/sponsio-logo-prpl.png',
     'lib/static/placeholder.png',
     'lib/static/favicon.png',
+    '../../favicon.png',
 
     'lib/assets/images/stackoverflow.png',
     'lib/assets/images/telescope.png',

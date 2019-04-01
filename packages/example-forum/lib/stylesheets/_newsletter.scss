@@ -1,34 +1,35 @@
 .newsletter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background: $white;
-  border: 1px solid $light-border;
-  box-shadow: 0 8px 14px 2px rgba(0, 0, 0, 0.14);
+  /*border: 1px solid $light-border;*/
+  box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   position: relative;
   max-height: 250px;
   padding: $vmargin $hmargin;
   @include large{
     @include flex-center;
+    align-items: baseline;
     min-height: 240px;
-    margin: $vmargin 0 $vmargin $vmargin*4;
-    justify-content: center;
+    margin: 0 0 $vmargin 0;
+    width: 28%;
+    min-width: 330px;
   }
   @include small-medium{
-    justify-content: baseline;
+    align-items: center;
     width: 100%;
     min-height: 100px;
   }
   .newsletter-tagline{
-    font-size: 1.35rem;
+    font-size: 1.15rem;
     @include small{
-      
-      margin-bottom: $vmargin;
+      margin: 0 $hmargin 0 0;
     }
     @include medium-large{
       margin: 0 $hmargin 0 0;
     }
-  }
-  .newsletter-button{
-    // min-width: 100px;
   }
   .newsletter-form{
     @include flex-center;
@@ -40,5 +41,14 @@
     position: absolute;
     top: 5px;
     right: 5px;
+  }
+}
+
+.newsletter img {
+  @include large {
+    max-width: 330px;
+  }
+  @include small-medium {
+    max-height: 50px;
   }
 }
