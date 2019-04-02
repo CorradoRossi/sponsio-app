@@ -1,8 +1,8 @@
 Package.describe({
-  name: "example-forum",
-  summary: "Vulcan forum package",
+  name: "app",
+  summary: "Sponsio Forum",
   version: '1.12.12',
-  git: "https://github.com/VulcanJS/Vulcan.git"
+  git: "https://github.com/CorradoRossi/sponsio-app"
 });
 
 Package.onUse(function (api) {
@@ -27,6 +27,7 @@ Package.onUse(function (api) {
     'vulcan:events@1.12.17',
     'vulcan:embed@1.12.17',
     'vulcan:admin@1.12.17',
+    'vulcan:debug@1.12.17',
 
   ]);
 

@@ -1515,14 +1515,14 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   bottom: 20px;
   right: 0px;
   width: 100%;
-  color: #FFFFFF;
+  color: #3C4856;
   z-index: 4;
   text-align: right;
   margin-top: 60px;
-  text-shadow: 0 0px 1px black;
+  /*text-shadow: 0 0px 1px black;*/
 }
 .footer a {
-  color: #FFFFFF;
+  color: #9B2FAE;
 }
 .footer .heart {
   color: #FF3B30;

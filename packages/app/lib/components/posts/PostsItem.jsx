@@ -41,7 +41,7 @@ class PostsItem extends PureComponent {
         </div>
 
         {post.thumbnailUrl ? <Components.PostsThumbnail post={post}/> : <a className="posts-thumbnail" href={Posts.getLink(post)} target={Posts.getLinkTarget(post)}>
-          <span><img src={'/packages/example-forum/lib/static/placeholder.png'} /></span></a> }
+          <span><img src={'/packages/app/lib/static/placeholder.png'} /></span></a> }
 
         <div className="posts-item-content">
 

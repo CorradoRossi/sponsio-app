@@ -48,11 +48,11 @@ if (getSetting('forum.seedOnStart')) {
     };
 
     if (typeof thumbnail !== "undefined") {
-      document.thumbnailUrl = "/packages/example-forum/lib/assets/images/" + thumbnail;
+      document.thumbnailUrl = "/packages/app/lib/assets/images/" + thumbnail;
     }
 
     return newMutation({
-      collection: Posts, 
+      collection: Posts,
       document,
       currentUser,
       validate: false,
@@ -76,7 +76,7 @@ if (getSetting('forum.seedOnStart')) {
     }
 
     return newMutation({
-      collection: Comments, 
+      collection: Comments,
       document: comment,
       currentUser: user,
       validate: false,
@@ -91,7 +91,7 @@ if (getSetting('forum.seedOnStart')) {
     };
 
     return newMutation({
-      collection: Users, 
+      collection: Users,
       document,
       validate: false,
     });

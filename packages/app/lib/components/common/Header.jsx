@@ -5,7 +5,7 @@ import { Posts } from '../../modules/posts/index.js';
 
 const Header = (props) => {
   
-  const logoUrl = getSetting('logoUrl', '/packages/example-forum/lib/static/sponsio-logo-prpl.png');
+  const logoUrl = getSetting('logoUrl', '/packages/app/lib/static/sponsio-logo-prpl.png');
   const siteTitle = getSetting('title');
   
 

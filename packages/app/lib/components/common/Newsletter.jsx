@@ -99,7 +99,7 @@ class Newsletter extends PureComponent {
   render() {
     return this.state.showBanner ? (
       <div className="newsletter">
-        <img src="/packages/example-forum/lib/static/time-understanding.png" alt="Time and Understanding"/>
+        <img src="/packages/app/lib/static/time-understanding.png" alt="Time and Understanding"/>
         <h4 className="newsletter-tagline">
           <FormattedMessage id="newsletter.subscribe_prompt" />
         </h4>
