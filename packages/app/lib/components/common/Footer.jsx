@@ -4,7 +4,9 @@ import { FormattedMessage } from 'meteor/vulcan:i18n';
 
 const Footer = props => {
   return (
-    <div className="footer">Made with ❤️ and ☕ by <a href="https://motorossi.me" target="_blank">MotoRossi<FormattedMessage id=""/></a></div>
+    <div className="footer">
+      <p>Made with ❤️ and ☕ by <a href="https://motorossi.me" target="_blank">MotoRossi<FormattedMessage id=""/></a></p>
+    </div>
   )
 }
 

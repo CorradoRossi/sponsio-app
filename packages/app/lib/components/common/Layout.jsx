@@ -25,12 +25,24 @@ const Layout = ({currentUser, children, currentRoute}) =>
 
       <Components.Newsletter />
 
+      <div className="sidebar-exp">
+        <div className="sidebar-logo">
+          <img src="/packages/app/lib/static/iwndwyt.png" alt="IWNDWYT"/>
+        </div>
+        <div className="sidebar-txt">
+          <h4>Sidebar</h4>
+          <p>All the words that I want to post go right in here and then you can see them!</p>
+        </div>
+      </div>
+
       <Components.FlashMessages />
 
     </div>
-  
-    <Components.Footer />
-  
+
+    <div className="footerdiv">
+      <Components.Footer />
+    </div>
+
   </div>
 
 registerComponent({ name: 'Layout', component: Layout, hocs: [withCurrentUser] });
