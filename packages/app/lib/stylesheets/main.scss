@@ -114,6 +114,9 @@ code{
 
 .sidebar-all {
   width: 29%;
+  @include small-medium {
+    width: 100%;
+  }
 }
 
 .sidebar-exp {
@@ -121,7 +124,6 @@ code{
   flex-wrap: wrap;
   justify-content: center;
   background: $white;
-  /*border: 1px solid $light-border;*/
   box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   position: relative;
@@ -132,12 +134,33 @@ code{
     align-items: baseline;
     min-height: 240px;
     margin: 0 0 $vmargin 0;
-    width: 28%;
     min-width: 330px;
   }
   @include small-medium{
     align-items: center;
-    width: 100%;
+    min-height: 100px;
+  }
+}
+
+.sidebar-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: $white;
+  box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  position: relative;
+  max-height: 850px;
+  padding: 0 $hmargin;
+  @include large{
+    @include flex-center;
+    align-items: baseline;
+    min-height: 240px;
+    margin: 0 0 $vmargin 0;
+    min-width: 330px;
+  }
+  @include small-medium{
+    align-items: center;
     min-height: 100px;
   }
 }
@@ -145,7 +168,7 @@ code{
 .sidebar-logo img {
   @include large {
     padding: 8px;
-    max-width: 330px;
+    max-width: 340px;
   }
   @include small-medium {
     max-height: 50px;
