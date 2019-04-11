@@ -21,11 +21,11 @@ const Layout = ({currentUser, children, currentRoute}) =>
   
     <div className="main">
 
+      <Components.FlashMessages />
+
       {children}
 
       <Components.Sidebar />
-
-      <Components.FlashMessages />
 
     </div>
 

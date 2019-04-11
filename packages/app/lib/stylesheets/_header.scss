@@ -51,15 +51,14 @@
     justify-content: space-between;
   }
   @include medium-large{
-    .nav-user{
+    .nav-new-post{
       margin-right: $hmargin;
     }
   }
-  .nav-new-post{
-    @include small{
+}
 
-    }
-  }
+.fa-plus {
+  padding: 2px 0 0 0;
 }
 
 .users-account-menu, .users-menu{

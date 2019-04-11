@@ -6,6 +6,10 @@ vulcan:core
 
 vulcan:i18n-en-us
 
+############ Analytics Packages ###########
+
+vulcan:events-ga
+
 ############ Accounts Packages ############
 
 accounts-password@1.5.1
@@ -14,16 +18,6 @@ accounts-facebook
 
 ############ Your Packages ############
 
-#getting-started
-
-# example-simple
-# example-movies
-# example-instagram
-  app
 # example-forum
-# example-customization
-# example-permissions
-# example-membership
-# example-interfaces
-# example-reactions
-# example-forms
+app
+

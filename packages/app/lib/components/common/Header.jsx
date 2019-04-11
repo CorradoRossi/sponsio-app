@@ -20,15 +20,15 @@ const Header = (props) => {
         </div>
         
         <div className="nav">
-          
-          <div className="nav-user">
-            {!!props.currentUser ? <Components.UsersMenu/> : <Components.UsersAccountMenu/>}
-          </div>
 
           <div className="nav-new-post">
             <Components.ShowIf check={Posts.options.mutations.new.check}>
               <Components.PostsNewButton/>
             </Components.ShowIf>
+          </div>
+
+          <div className="nav-user">
+            {!!props.currentUser ? <Components.UsersMenu/> : <Components.UsersAccountMenu/>}
           </div>
 
         </div>

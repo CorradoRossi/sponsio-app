@@ -12,8 +12,8 @@ body{
 .main{
   margin-bottom: $vmargin;
   display: flex;
-  flex-wrap: wrap-reverse;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-between;
 }
 

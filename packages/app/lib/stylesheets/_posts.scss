@@ -276,6 +276,9 @@
     padding: $hmargin;
     margin-bottom: $vmargin;
   }
+  @include small-medium {
+    width: 100%;
+  }
 }
 
 .posts-page-body{
@@ -288,18 +291,19 @@
 //////////////////////////////////////////////////////
 
 .posts-day{
-  margin-bottom: $vmargin * 2;
-  .posts-load-more{
-    border: none;
-    padding: 0;
-    &:hover{
-      background: inherit;
-      color: inherit;
-      border: inherit;      
-    }
-  }
   .posts-no-results{
     margin-top: $vmargin;
+  }
+}
+
+.posts-load-more{
+  margin-bottom: $vmargin;
+  border: none;
+  padding: 0;
+  &:hover{
+    background: inherit;
+    color: inherit;
+    border: inherit;      
   }
 }
 
