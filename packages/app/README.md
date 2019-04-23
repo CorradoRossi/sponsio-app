@@ -1,1 +1,1 @@
-Vulcan forum example package.
+Main Sponsio package

@@ -37,21 +37,14 @@ Package.onUse(function (api) {
     'lib/static/placeholder.png',
     'lib/static/favicon.png',
     'lib/static/zenproverb.jpg',
-    'lib/static/iwndwyt.png',
     '../../favicon.png',
 
     'lib/assets/images/stackoverflow.png',
-    'lib/assets/images/telescope.png',
     'lib/static/time-understanding.png',
     'lib/static/me-7.jpg',
   ], ['client']);
 
   api.addAssets([
-    'lib/assets/content/read_this_first.md',
-    'lib/assets/content/deploying.md',
-    'lib/assets/content/customizing.md',
-    'lib/assets/content/getting_help.md',
-    'lib/assets/content/removing_getting_started_posts.md',
 
     'lib/server/email/templates/common/test.handlebars',
     'lib/server/email/templates/common/wrapper.handlebars',
@@ -70,7 +63,7 @@ Package.onUse(function (api) {
 
   api.addFiles([
     //'lib/stylesheets/bootstrap.css',
-    'lib/stylesheets/bootstrap-wizard.css',
+    'lib/stylesheets/wizard.css',
     'lib/stylesheets/main.scss',
   ], ['client']);
 
